@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "new1/lambda.js",
-        "code": "let AWS = require('aws-sdk');\nconst cognito_idp = new AWS.CognitoIdentityServiceProvider();\n\nexports.handler = function (event, context, callback) {\n    callback(null, { \"message\": \"Successfully executed!\" });\n}",
+        "code": "let AWS = require('aws-sdk');\nconst cognito_idp = new AWS.CognitoIdentityServiceProvider();\n\nexports.handler = function (event, context, callback) {\n    callback(null, { \"message\": \"Successfully executed!\" });",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -370,7 +370,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565673506607
+    "lastSave": 1565689785419
   },
   "VCS_STATE": {
     "provider": "GitHub",
