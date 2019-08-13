@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "new1/lambda.js",
-        "code": "let AWS = require('aws-sdk');\nconst cognito_idp = new AWS.CognitoIdentityServiceProvider();\n\nexports.handler = function (event, context, callback) {\n    callback(null, { \"message\": \"Successfully executed!!.\" });\n}",
+        "code": "let AWS = require('aws-sdk');\nconst cognito_idp = new AWS.CognitoIdentityServiceProvider();\n\nexports.handler = function (event, context, callback) {\n    callback(null, { \"message\": \"Successfully executed!\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
